@@ -1,0 +1,64 @@
+$primary-color: #676880;
+$primary-text: #d4d4d4;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gutter {
+  height: 15vh;
+}
+
+.home {
+  background-image: url(../assets/emmaus-studio-P006DyDoIY4-unsplash-bw-test.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-inner {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(20, 23, 54, 0.3);
+
+  .nav-container {
+    width: 95vw;
+    height: 7vh;
+    margin: auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 3px $primary-color solid;
+  }
+
+  a {
+    padding: 0px 0px 0px 100px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .home-body {
+    background-color: rgba(49, 56, 75, 0.85);
+    width: 50vw;
+    height: 63vh;
+    border-radius: 0px 5px 5px 0px;
+
+    h1 {
+      padding: 70px;
+    }
+    h2 {
+      padding: 20px;
+    }
+  }
+}
