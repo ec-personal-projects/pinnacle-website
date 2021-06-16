@@ -11,6 +11,7 @@ const HomeBody = () => {
           provides you with original and objective solutions that support your
           oil and gas developments — from inception to completion. Learn more.
         </h2>
+        <button>Contact Us</button>
       </div>
       <div className="gutter"></div>
     </div>
